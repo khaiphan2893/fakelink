@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+#main {
+    display: block;
+    width: 980px;
+    height: 500px;
+    /* margin-top: 92px; */
+    margin: 92px auto 132px;
+}
+
+#main .first-login .logo {
+    height: 90px;
+    margin-bottom: -10px;
+}
+
+#main li {
+    list-style-type: none;
+}
+
+#main .first-login {
+    display: inline-block;
+    text-align: left;
+    width: 489px;
+    height: 496px;
+}
+
+#main .first-login h1 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+#main .first-login p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#main .first-login .add-account {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 160px;
+    border: solid #ccc 1px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#main .first-login .add-account:hover {
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+#main .first-login .add-account .account {
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+}
+
+#main .first-login .add-account .account-pic {
+    display: block;
+    width: 42px;
+    margin: auto;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    border-top-right-radius: 8px; 
+    border-top-left-radius: 8px;
+}
+
+#main .first-login .add-account .add {
+    background-color: #fff;
+    color: #1877f2;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#main .sec-login {
+    display: inline-block;
+    float: right;
+    width: 396px;
+    height: 456px;
+    margin-right: 50px;
+}
+
+#main .sec-login .login-table {
+    margin-top: 60px;
+    background-color: #fff;
+    width: 396px;
+    height: 349px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#main .sec-login .login-table input {
+    display: block;
+    background-color: #fff;
+    width: 360px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    margin: 10px auto;
+}
+
+#main .sec-login .login-table .log-btn {
+    width: 360px;
+    background-color: #1877f2;
+    font-size: 20px;
+    line-height: 48px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+#main .sec-login .login-table .log-btn:hover a,
+#main .sec-login .login-table .log-btn:hover {
+    background-color: #166ad8;
+}
+
+#main .sec-login .login-table .log-btn a {
+    color: #fff;
+    background-color: #1877f2;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#main .sec-login .login-table li {
+    background-color: #fff;
+    margin: 20px;
+}
+
+#main .sec-login .login-table a {
+    text-decoration: none;
+    color: #1877f2;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#main > .sec-login > .login-table > a:hover {
+    text-decoration: underline;
+}
+
+#main .sec-login .login-table .log-tble-line {
+    color: #ccc;
+}
+
+#main .sec-login .login-table .create-btn {
+    width: 200px;
+    height: 48px;
+    background-color: #42b72a;
+    margin: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#main .sec-login .login-table .create-btn a {
+    background-color: #42b72a;
+    color: #fff;
+    line-height: 48px;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding: 0 16px; */
+}
+
+#main .sec-login .login-table .create-btn:hover,
+#main .sec-login .login-table .create-btn:hover a {
+    background-color: #349022fd;
+}
+
+
+#main .sec-login .paragraph {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    /* background-color:#f0f2f5; */
+}
+
+#main .sec-login .paragraph a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#footer .footer-content a:hover,
+#footer .footer-content .other-features a:hover,
+#main .sec-login .paragraph a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 180px;
+}
+
+#footer .footer-content {
+    position: relative;
+    bottom: -25px;
+    margin: auto;
+    background-color: #fff;
+    width: 980px;
+    height: 155px;
+}
+
+#footer .footer-content a {
+    padding: 0 5px;
+    background-color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    color: #737373;
+}
+
+#footer .footer-content p {
+    background-color: #fff;
+    color: #ccc;
+    margin: 0 0 10px;
+}
+
+#footer .footer-content .other-features {
+    background-color: #fff;
+}
+
+#footer .footer-content .other-features a {
+    padding-right: 10px;
+}
